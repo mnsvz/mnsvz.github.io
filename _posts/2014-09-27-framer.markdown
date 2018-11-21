@@ -1,0 +1,119 @@
+---
+layout: article
+title:  "Framer Experiments"
+date:   2014-10-27 13:57:09
+headline: "Experiments with Framer JS"
+co: "Personal"
+tags:
+- ui
+- interaction
+categories:
+- published
+
+---
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_framer.gif" />
+</figure>
+
+<!--more-->
+
+[**FramerJS**](http://framerjs.com) is a prototyping tool developed by Koen bok and the team at Podium.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.
+
+---
+
+## Card swiping
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardfeed.gif" />
+</figure>
+
+The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_cardfeed.framer.zip)
+
+---
+
+## Animation Chains with States
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_chathead.gif" />
+</figure>
+
+On the framerJS website there is an example on chaining animations using the "end" event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  I deleted the project awhile ago, so here instead is a code snippet to show how it works.
+
+	layer.states.add
+	  a:
+	    width: 10
+	    height: 10
+	  b:
+	    width: 20
+	    height: 20
+	layer.states.animationOptions = curve:"spring(800,80,0)"
+
+	layer.on Events.Click, ->
+	  layer.states.switch "a"
+	  Utils.delay 0.5s, ->
+	    layer.states.switch "b"
+
+
+---
+
+## Tap hold with Hammer JS
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_beacon.gif" />
+</figure>
+
+Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/beacon_proto.zip)  
+
+---
+
+## Drill Down Tables
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_multiview.gif" />
+</figure>
+
+A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_multiview.framer.zip)
+
+---
+
+## Page Control
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardtable.gif" />
+</figure>
+
+Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I'll leave it to you.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.framer.zip)
+
+
+---
+
+## Card Stack
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_cardstack.gif" />
+</figure>
+
+Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly.
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_cardstack.framer.zip)
+
+---
+
+## Radial Progress
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_radial.gif" />
+</figure>
+
+It took me awhile to figure this one out, but here's a proto demonstrating how to create a radial progress bar.  The key is that you're actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.  
+
+[Download Source](https://dl.dropboxusercontent.com/u/1916165/edchao_radial_progress.framer.zip)
