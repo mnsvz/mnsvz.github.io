@@ -85,7 +85,6 @@ The redesigned UI allows zero typing by the user. Most common tasks like searchi
 ---
 ## Sketch & Ideation
 
-The biggest constraint was creating something that would be within the scope of a mobile app. I started by defining the most important information to communicate. My inner monologue went something like this — “What is the biggest value provided by this app — the ability to see each new sale in realtime. Do we want to show a sales breakdown by Day, Week, Month, and All Time? What value is added between Week and Month? Do we want to provide a breakdown of sales by product or should that segmentation be for a later release?”
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
@@ -93,9 +92,6 @@ The biggest constraint was creating something that would be within the scope of 
 
 ---
 
-I then started sketching out the flow and defining scope with decisions such as letting users log in, but not sign up (for the v1 MVP) since this was more of a tool for existing users rather than an acquisition channel to reach new users. We also removed a few things from the scope such as photos of products and any detailed /information/interaction with the sales info, so we could make sure we would be able to ship this quickly.
-
-One thing I kept in mind was, putting the emphasis on the customer rather than the purchase. Out in the field, merchants would talk and interact with people and close a deal, merchants remember their customers very well and track stuff mentally using their names, it’s more important to highlight that there are people behind these transactions. These merchants have chosen to use Intamojo because they want a direct relationship with their audience, so we should help them feel this relationship.
 
 ---
 ## Design & Prototyping

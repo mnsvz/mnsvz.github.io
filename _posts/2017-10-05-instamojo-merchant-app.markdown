@@ -17,13 +17,13 @@ categories:
 </figure>
 
 <!--more-->
-
+---
 
 ## Introduction
 
 Instamojo provides free payment gateway in India. Trusted by 5,00,000+ Indian Businesses, 100% Secure, No setup cost, No maintenance cost. Instamojo offers some great tools that can not only help you manage your business efficiently but also help you grow your business.
 
----
+
 
 ## Problems with Instamojo web
 
@@ -32,7 +32,6 @@ Merchants couldn’t see their new sales on mobile, so they had no way of tracki
 
 This put forth a strong use-case for an Android app that enables merchants to conduct day-to-day commerce on their phones. Up until this point, there was no android app for merchants. They were only notified of new sales through email, like the one below.
 
----
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_email.jpg" />
@@ -104,6 +103,8 @@ We finalised the flow of the app and the main dashboard contents during brainsto
 
 Another objective of the andriod app was to enable merchants to create and share payment links and products directly from the app. Since we saw patterns in sharing via Whatsapp, Email and Facebook, we made it easy for merchants to share their links/products on these platforms. Prior to this, merchants would copy-paste links into mails and whatsapp manually.
 
+---
+
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_links.jpg" />
 </figure>
@@ -113,6 +114,7 @@ Another objective of the andriod app was to enable merchants to create and share
 While the team got onto making the android app, I carved out time to make details within the app, animations,empty states and prototypes to help convey some interaction ideas and also to bring delight to customers via small moments and micro-interactions.
 
 
+---
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_load.gif" />

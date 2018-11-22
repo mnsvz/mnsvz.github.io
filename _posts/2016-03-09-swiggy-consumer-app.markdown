@@ -25,8 +25,6 @@ In early 2015, Swiggy had to ramp up their growth and at the time, online food o
 We wanted to change this and make food-ordering 'second nature' to our hungry users.
 During the second half of 2015, I led the redesign of Swiggy's consumer apps to get rid of the hassle in food ordering UX and standardise the communication of the underlying logistics to the users. Here are just a few of the changes we shipped.  
 
-<!--more-->
----
 
 ## Live Tracking and Logistical Transparency.
 
@@ -58,7 +56,6 @@ Along with the tracking, we also had to standardise the communication around log
 
 
 
-
 ## Better Address Management
 
 Adding a new delivery address and managing existing addresses was manual and a pain for the users. We advocated for auto-filling the address fields via google maps. This made the ‘add a new address flow' more accurate and easy for the users. This accuracy further helped the logistics/operations teams to perform better, by eliminating many last mile phone calls between users, delivery personnel and Swiggy’s customer care.
@@ -71,9 +68,6 @@ Adding a new delivery address and managing existing addresses was manual and a p
 ---
 
 Aiding to the repeated usage, we also created quick tags such as “home”, “office”. This made it easier for users to know their current delivery location. We also developed a feature logic, based on the location and time of the day, the app automatically fetches the right address and gives the list of restaurants. Thereby eliminating manual choosing of the address every time.
-
-
----
 
 
 ## Increasing the 'Average Order Value'
@@ -106,6 +100,9 @@ When Swiggy was first introduced on mobile, users were asked to signup and login
 Through intial testing we figured out that users just wanted to decide on the food first and then worry about authentication. The product and tech team at Swiggy got on a sprint and re-worked user accounts internally, this enabled us to release a single log-in method (via OTP) for all users across iOS, Android and Web. We also took a decision to load the app with restaurant listing by default and prompted users to login when they had made their choice on food/restaurant and were ready to place the order. This further lead to decrease in the numbers of abandoned carts and made it easier for users to complete orders on web or phone.
 
 ---
+## Future Track
+
+Since 2016, Swiggy has championed customer experience and scaled their food delivery business across major cities in India. With a focus on delighting their customers, they remain the leading startup/product in the food delivery sector. They have continued building on the core value proposition and launched many loved initiatives like cloud kitchens(bowl company, homely) and Swiggy Pop, a food first approach that makes it even easier for the users to get food delivered ASAP.
 
 ---
 
