@@ -81,16 +81,6 @@ The redesigned UI allows zero typing by the user. Most common tasks like searchi
 
 ---
 
-Some of them were already doing business on Facebook and Whatsapp. They would display products/services and close deals via Cash or NEFT bank transfers. This put forth a strong use-case for an Android app that enables merchants to conduct day-to-day commerce on their phones powered by Instamojo.
-
-The app had to be good at 2 things. 
-Phase 1) Enable our existing merchants to conduct most of their commerce on their phones, on the go.
-Phase 2) Act as a acquisition channel of the next billion merchants, who have only known "the mobile way" of doing business.
-
-Invoicing, transactions and tax related workflows are complex and are best designed on a web/desktop interface. The team decided to offer features that enabled merchants to do basic but frequent tasks like-
-1) Creating & Sharing payment/product links
-2) View the latest sales figures in realtime with filters
-3) Enable merchant sign-ups on the app, leading to new user acquisitions
 
 ---
 ## Sketch & Ideation
@@ -110,44 +100,8 @@ One thing I kept in mind was, putting the emphasis on the customer rather than t
 ---
 ## Design & Prototyping
 
-We finalised the flow of the app and the main dashboard contents during brainstorming and white-boarding sessions. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the dashboard. Along with the sales numbers, we also provided numbers that indicate growth/dip in business compared to the previous day/week/month.  
-
-<figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_volume.gif" />
-</figure>
-
----
-
-Another objective of the andriod app was to enable merchants to create and share payment links and products directly from the app. Since we saw patterns in sharing via Whatsapp, Email and Facebook, we made it easy for merchants to share their links/products on these platforms. Prior to this, merchants would copy-paste links into mails and whatsapp manually.
-
-<figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
-</figure>
-
----
-
-While the team got onto making the android app, I carved out time to make details within the app, animations,empty states and prototypes to help convey some interaction ideas and also to bring delight to customers via small moments and micro-interactions.
-
-
-
-<figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
-</figure>
-
----
 
 ## Results & Future Track
 
-We ended up shipping the app in 6 weeks and our customers loved it. We kept seeing more and more existing merchants using the android app on a daily basis. We also got requests from our community for an iOS version as well.
-
----
-
-<figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
-</figure>
-
----
-
-This is beyond the scope of this project, but in the future we could help creators manage their capital & shipments. While working on these designs, I realized how difficult it can be for merchants with larger audiences to manage their capital & shipments. SMBs usually struggle with liquidity on a daily/weekly basis that can aid their procurement or fullfillment of the orders. Instamojo has later taken this business challenge up and launched mojo-express and mojo-capital.
 
 ### This redesign was sadly not prioritized within the company during my tenure.
