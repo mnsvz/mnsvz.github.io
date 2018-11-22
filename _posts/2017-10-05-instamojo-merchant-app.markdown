@@ -13,7 +13,7 @@ categories:
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/gif_dropbox.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_cover.jpg" />
 </figure>
 
 <!--more-->
@@ -35,7 +35,7 @@ This put forth a strong use-case for an Android app that enables merchants to co
 ---
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_email.jpg" />
 </figure>
 
 ---
@@ -45,7 +45,7 @@ If the merchant wanted to see the total amount they’ve now made on Instamojo, 
 ---
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_webapp.jpg" />
 </figure>
 
 ---
@@ -60,7 +60,7 @@ I was teamed up with our amazing Product Head, Dalan and Developer, Vedhvyas to 
 The need for the merchant app was driven mostly by continuous customer emails and tweets asking for a mobile solution to track sales and share products/links on the go.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_tweets.jpg" />
 </figure>
 
 ---
@@ -82,7 +82,7 @@ Invoicing, transactions and tax related workflows are complex and are best desig
 The biggest constraint was creating something that would be within the scope of a mobile app. I started by defining the most important information to communicate. My inner monologue went something like this — “What is the biggest value provided by this app — the ability to see each new sale in realtime. Do we want to show a sales breakdown by Day, Week, Month, and All Time? What value is added between Week and Month? Do we want to provide a breakdown of sales by product or should that segmentation be for a later release?”
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_sketching.jpg" />
 </figure>
 
 ---
@@ -97,7 +97,7 @@ One thing I kept in mind was, putting the emphasis on the customer rather than t
 We finalised the flow of the app and the main dashboard contents during brainstorming and white-boarding sessions. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the dashboard. Along with the sales numbers, we also provided numbers that indicate growth/dip in business compared to the previous day/week/month.  
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_sales.jpg" />
 </figure>
 
 ---
@@ -105,7 +105,7 @@ We finalised the flow of the app and the main dashboard contents during brainsto
 Another objective of the andriod app was to enable merchants to create and share payment links and products directly from the app. Since we saw patterns in sharing via Whatsapp, Email and Facebook, we made it easy for merchants to share their links/products on these platforms. Prior to this, merchants would copy-paste links into mails and whatsapp manually.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_links.jpg" />
 </figure>
 
 ---
@@ -127,7 +127,7 @@ We ended up shipping the app in 6 weeks and our customers loved it. We kept seei
 ---
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_future.jpg" />
 </figure>
 
 ---

@@ -11,7 +11,7 @@ categories:
 - published
 ---
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_cover.jpg" />
 </figure>
 
 <!--more-->
@@ -35,7 +35,7 @@ We kept seeing overwhelming evidence that suggested, users were very anxious abo
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_tracking.jpg" />
 </figure>
 
 ---
@@ -51,7 +51,7 @@ Along with the tracking, we also had to standardise the communication around log
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_stages.jpg" />
 </figure>
 
 ---
@@ -65,7 +65,7 @@ Adding a new delivery address and managing existing addresses was manual and a p
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_focus.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_address.jpg" />
 </figure>
 
 ---
@@ -81,7 +81,7 @@ Aiding to the repeated usage, we also created quick tags such as “home”, “
 One of the business goals for design, was to help Swiggy raise the median order value of a user from Rs. 150 towards Rs.250. This further led to effective efforts in optimising the delivery fleet and its operational costs.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_focus.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_order.jpg" />
 </figure>
 
 ---
@@ -96,7 +96,7 @@ We teamed up with folks from the product and data intelligence teams and analyse
 When Swiggy was first introduced on mobile, users were asked to signup and login via email and/or phone number. This led to two separate flows where some set of users logged in via passwords and others used the OTP SMS service to log in. This also introduced un-intended password storage issues and we saw many users would often use the forgot password flow. 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_focus.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_onboarding.jpg" />
 </figure>
 
 ---

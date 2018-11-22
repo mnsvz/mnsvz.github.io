@@ -12,7 +12,7 @@ categories:
 ---
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_stack.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_cover.jpg" />
 </figure>
 
 
@@ -25,6 +25,10 @@ categories:
 Ola Play is the world’s most advanced connected car platform. It brings advanced car controls, choice of personalized content, and a fully connected interactive experience to the user. Cars are equipped with a range of infotainment options and enhanced driver assistance.
 
 Users can tune into their favourite radio shows, catch up on sitcoms, enjoy movies and much more. Going home, to work, or maybe heading to the airport, users can enjoy comfortable rides with entertainment on-the-go.
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_media.jpg" />
+</figure>
 
 ---
 
@@ -72,7 +76,7 @@ The redesigned UI allows zero typing by the user. Most common tasks like searchi
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
 </figure>
 
 ---
