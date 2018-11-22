@@ -61,7 +61,7 @@ Along with the tracking, we also had to standardise the communication around log
 
 ## Better Address Management
 
-Adding a new delivery address and managing existing addresses was manual and a pain for the users. We advocated for auto-filling the address fields via google maps. This made the ‘add a new address flow' more accurate and easy for the users. This accuracy further helped the logistics/operations teams to perform better, by elminating many last mile phone calls between users, delivery personnel and Swiggy’s customer care.
+Adding a new delivery address and managing existing addresses was manual and a pain for the users. We advocated for auto-filling the address fields via google maps. This made the ‘add a new address flow' more accurate and easy for the users. This accuracy further helped the logistics/operations teams to perform better, by eliminating many last mile phone calls between users, delivery personnel and Swiggy’s customer care.
 
 
 <figure>
@@ -93,7 +93,7 @@ We teamed up with folks from the product and data intelligence teams and analyse
 
 ## Food-first onboarding and signup
 
-When Swiggy was first introduced on mobile, users were asked to signup and login via email and/or phone number. This led to two separate flows where some set of users logged in via passwords and others used the OTP SMS service to log in. This also introduced un-intended password storage issues and we saw many users would often use the forgot password flow. 
+When Swiggy was first introduced on mobile, users were asked to signup and login via email and/or phone number. This led to two separate flows where some set of users logged in via passwords and others used the OTP SMS service to log in. This also introduced un-intended password storage issues and we saw many users would forget their credentials and were not able to sign in.
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_onboarding.jpg" />
