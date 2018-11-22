@@ -113,7 +113,7 @@ One thing I kept in mind was, putting the emphasis on the customer rather than t
 We finalised the flow of the app and the main dashboard contents during brainstorming and white-boarding sessions. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the dashboard. Along with the sales numbers, we also provided numbers that indicate growth/dip in business compared to the previous day/week/month.  
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
 </figure>
 
 ---
