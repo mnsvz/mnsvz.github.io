@@ -81,7 +81,7 @@ Aiding to the repeated usage, we also created quick tags such as “home”, “
 One of the business goals for design, was to help Swiggy raise the median order value of a user from Rs. 150 towards Rs.250. This further led to effective efforts in optimising the delivery fleet and its operational costs.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_order.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_swiggy_cross_sell.gif" />
 </figure>
 
 ---

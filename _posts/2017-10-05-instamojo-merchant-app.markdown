@@ -115,10 +115,17 @@ While the team got onto making the android app, I carved out time to make detail
 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_load.gif" />
 </figure>
 
 ---
+
+<figure>
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_fab.gif" />
+</figure>
+
+---
+
 
 ## Results & Future Track
 

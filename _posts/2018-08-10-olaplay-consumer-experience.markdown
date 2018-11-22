@@ -98,7 +98,7 @@ Invoicing, transactions and tax related workflows are complex and are best desig
 The biggest constraint was creating something that would be within the scope of a mobile app. I started by defining the most important information to communicate. My inner monologue went something like this — “What is the biggest value provided by this app — the ability to see each new sale in realtime. Do we want to show a sales breakdown by Day, Week, Month, and All Time? What value is added between Week and Month? Do we want to provide a breakdown of sales by product or should that segmentation be for a later release?”
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_dbxmobile_cover.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
 </figure>
 
 ---
@@ -113,7 +113,7 @@ One thing I kept in mind was, putting the emphasis on the customer rather than t
 We finalised the flow of the app and the main dashboard contents during brainstorming and white-boarding sessions. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the dashboard. Along with the sales numbers, we also provided numbers that indicate growth/dip in business compared to the previous day/week/month.  
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_volume.gif" />
 </figure>
 
 ---
