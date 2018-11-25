@@ -19,16 +19,14 @@ categories:
 <!--more-->
 ---
 
-## Introduction
+## Running a business, on the go!
 
 Instamojo provides free payment gateway in India. Trusted by 5,00,000+ Indian Businesses, 100% Secure, No setup cost, No maintenance cost. Instamojo offers some great tools that can not only help you manage your business efficiently but also help you grow your business.
 
+Since launch in 2012, Instamojo was primarily a web product, offering payment related features to SMB owners with internet access. However, by mid 2016-17 the story of internet access in India was much different. Thanks to the insane sales of reliance JIO connections and availability of cheap and good android phones, internet was suddenly everywhere. Everyone owned a smartphone, and interesting new businesses sprawled around on facebook pages and whatsapp groups.
 
-
-## Problems with Instamojo web
-
-
-Merchants couldn’t see their new sales on mobile, so they had no way of tracking their realtime earnings on the go. At Instamojo, we had conducted user research and surveys across tier-1 & tier-2 cities in India. We found 80% of the SMB merchants had a smartphone with 3G connectivity, and only around 15% of them had laptops/desktops. 
+At Instamojo, we had conducted user research and surveys across tier-1 & tier-2 cities in India. We found 80% of the SMB merchants had a smartphone with 3G connectivity, and only around 15% of them had laptops/desktops. 
+We also recieved a lot of requests from existing intamojo merchants that they couldn’t see their new sales on mobile, so they had no way of tracking their realtime earnings on the go. 
 
 This put forth a strong use-case for an Android app that enables merchants to conduct day-to-day commerce on their phones. Up until this point, there was no android app for merchants. They were only notified of new sales through email, like the one below.
 
@@ -51,7 +49,7 @@ If the merchant wanted to see the total amount they’ve now made on Instamojo, 
 
 With the emphasis on total sales rather than new sales, it can be tough for merchants to get a sense of new sales coming in. From a business standpoint, we should make it ridiculously easy for merchants to see how Instamojo is helping them every single day. 
 
-I was teamed up with our amazing Product Head, Dalan and Developer, Vedhvyas to get started on this project.
+I was teamed up with an amazing Product Head, Dalan and Developer, Vedhavyas to design and ship an android app for merchants.
 
 ---
 ## Research and Context
@@ -64,21 +62,21 @@ The need for the merchant app was driven mostly by continuous customer emails an
 
 ---
 
-Some of them were already doing business on Facebook and Whatsapp. They would display products/services and close deals via Cash or NEFT bank transfers. This put forth a strong use-case for an Android app that enables merchants to conduct day-to-day commerce on their phones powered by Instamojo.
+Some of them were already doing business on Facebook and Whatsapp. They would display products/services and close deals via Cash or NEFT bank transfers. We wanted to give merchants the best tool, through an Android app that enables them to conduct day-to-day commerce on their phones powered by Instamojo.
 
-The app had to be good at 2 things. 
-Phase 1) Enable our existing merchants to conduct most of their commerce on their phones, on the go.
-Phase 2) Act as a acquisition channel of the next billion merchants, who have only known "the mobile way" of doing business.
+The team brainstormed on many ideas and we were able to reduce the scope by phasing releases and hence ship faster. The goals were as follows -
+1. Phase 1 - Enable our existing merchants to conduct most of their commerce on their phones, on the go.
+2. Phase 2 - Act as an acquisition channel of the next billion merchants, who have only known "the mobile way" of doing business.
 
-Invoicing, transactions and tax related workflows are complex and are best designed on a web/desktop interface. The team decided to offer features that enabled merchants to do basic but frequent tasks like-
-1) Creating & Sharing payment/product links
-2) View the latest sales figures in realtime with filters
-3) Enable merchant sign-ups on the app, leading to new user acquisitions
+Upon talking to the customers about ground realities of invoicing, transactions and tax related workflows, the team decided that these are best designed on a web/desktop interface. Instead we focussed on offering great experiences that enabled merchants to do basic but frequent tasks like-
+1. Creating & Sharing payment/product links
+2. View the latest sales figures in realtime with filters
+3. Enable merchant sign-ups on the app, leading to new user acquisitions
 
 ---
 ## Sketch & Ideation
 
-The biggest constraint was creating something that would be within the scope of a mobile app. I started by defining the most important information to communicate. My inner monologue went something like this — “What is the biggest value provided by this app — the ability to see each new sale in realtime. Do we want to show a sales breakdown by Day, Week, Month, and All Time? What value is added between Week and Month? Do we want to provide a breakdown of sales by product or should that segmentation be for a later release?”
+The biggest challenge was to make the above mentioned tasks easy on a smartphone. The app had to be designed for clarity and real time information of the business/sales. I started by defining the most important information to communicate. My inner monologue went something like this — “What is the biggest value provided by this app — the ability to see each new sale in realtime. Do we want to show a sales breakdown by Day, Week, Month, and All Time? What value is added between Week and Month? Do we want to provide a breakdown of sales by product or should that segmentation be for a later release?”
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_sketching.jpg" />
@@ -86,14 +84,14 @@ The biggest constraint was creating something that would be within the scope of 
 
 ---
 
-I then started sketching out the flow and defining scope with decisions such as letting users log in, but not sign up (for the v1 MVP) since this was more of a tool for existing users rather than an acquisition channel to reach new users. We also removed a few things from the scope such as photos of products and any detailed /information/interaction with the sales info, so we could make sure we would be able to ship this quickly.
+I started sketching out various dashboards with different sets of information ranging from daily sales, to amount of transactions and support tickets that were open. We'd got overwhelming feedback in the interviews that merchants were very eager to know the sales in real time. Often times, these SMB owners were in meetings or on the move and this app would help them be on top of their business.
 
 One thing I kept in mind was, putting the emphasis on the customer rather than the purchase. Out in the field, merchants would talk and interact with people and close a deal, merchants remember their customers very well and track stuff mentally using their names, it’s more important to highlight that there are people behind these transactions. These merchants have chosen to use Intamojo because they want a direct relationship with their audience, so we should help them feel this relationship.
 
 ---
 ## Design & Prototyping
 
-We finalised the flow of the app and the main dashboard contents during brainstorming and white-boarding sessions. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the dashboard. Along with the sales numbers, we also provided numbers that indicate growth/dip in business compared to the previous day/week/month.  
+After many white-boarding sessions and iterations, we finalised the overall purpose of the app and the main dashboard contents. The dashboard is designed to be the go-to place for merchants to track their sales in the last day/week/months and hence that’s the primary focus on the screen. Along with the sales numbers, we also showed numbers that indicate growth/dip in business compared to the previous day/week/month.  
 
 <figure>
 <img class="lazy" data-original="{{edchao.github.io}}/assets/img_instamojo_sales.jpg" />
@@ -101,7 +99,7 @@ We finalised the flow of the app and the main dashboard contents during brainsto
 
 ---
 
-Another objective of the andriod app was to enable merchants to create and share payment links and products directly from the app. Since we saw patterns in sharing via Whatsapp, Email and Facebook, we made it easy for merchants to share their links/products on these platforms. Prior to this, merchants would copy-paste links into mails and whatsapp manually.
+Another objective of the andriod app was to enable merchants to create and share payment links and products directly from the app. Since we saw usage patterns in sharing via Whatsapp, Email and Facebook, we made it easy for merchants to share their links/products on these platforms directly from the app. Prior to this, merchants would copy-paste links into mails and whatsapp manually on the desktop/browser.
 
 ---
 
@@ -111,7 +109,7 @@ Another objective of the andriod app was to enable merchants to create and share
 
 ---
 
-While the team got onto making the android app, I carved out time to make details within the app, animations,empty states and prototypes to help convey some interaction ideas and also to bring delight to customers via small moments and micro-interactions.
+While the project was onto the development phase, I carved out time to make details within the app, animations, empty states via prototypes, to help convey some animations and interactions to the developers and how this plays a role in customer delight.
 
 
 ---
@@ -141,6 +139,6 @@ We ended up shipping the app in 6 weeks and our customers loved it. We kept seei
 
 ---
 
-This is beyond the scope of this project, but in the future we could help creators manage their capital & shipments. While working on these designs, I realized how difficult it can be for merchants with larger audiences to manage their capital & shipments. SMBs usually struggle with liquidity on a daily/weekly basis that can aid their procurement or fullfillment of the orders. Instamojo has later taken this business challenge up and launched mojo-express and mojo-capital.
+This was beyond the scope of this project, but the team had future visions of helping merchants manage their capital & shipments. While working on these designs, I realized how difficult it can be for merchants with larger audiences to manage their capital & shipments. SMBs usually struggle with liquidity on a daily/weekly basis that can aid their procurement or fullfillment of the orders. Instamojo has later taken this business challenge up and launched mojo-express and mojo-capital.
 
 ### Track your sales wherever you go. <a href="https://play.google.com/store/apps/details?id=com.instamojo.app&hl=en_IN">Download Intamojo from the Play Store</a>.
