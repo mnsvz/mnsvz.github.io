@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "OlaPlay Consumer Experience"
-date:   2015-08-10 13:57:09
+date:   2018-08-10 13:57:09
 headline: "Redesigning in-cab entertainment for OlaPlay"
 co: "Ola"
 tags:
@@ -67,7 +67,7 @@ Entertainment UI should offer effortless navigation and control, keeping the use
 
 In brief, the redesign involves and advocates for ‘design for distance’ by minimizing text inputs and having a content first approach.
 
-The redesigned UI asks for zero typing by the user. Most common tasks like searching and typing queries would now be handled by an omnipresent voice search assistant. Ola partnered with Microsoft and the engineering team worked on deep integration of Cortana services into the OlaPlay plaform, enabling users to perform system-wide voice searches easily.
+The redesigned UI asks for zero typing by the user. Most common tasks like searching and typing queries would now be handled by an omnipresent voice search assistant. Ola partnered with Microsoft and the engineering team worked on deep integration of Cortana services into the OlaPlay platform, enabling users to perform system-wide voice searches easily.
 
 
 
@@ -81,7 +81,7 @@ The redesigned UI asks for zero typing by the user. Most common tasks like searc
 The first version of OlaPlay showcased featured content on a carousel followed by a list of content partners. All of the content offered by these partners were hidden under their own apps. We quickly prototyped an interactive version where all of the content is directly loaded onto the home page, and tested it with 5-10 users. On an average we found an increase in engagement times and many more content items played by users than the previous version. This proved to a be better design as we scaled the number of content partners as well.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_home.jpg" />
 </figure>
 
 ---
@@ -89,7 +89,7 @@ The first version of OlaPlay showcased featured content on a carousel followed b
 The design team in close collaboration with the content/marketing team, began working on creating city-level as well as personalised playlists for users. After studying various leading content serving platforms, we rationalised that we could further increase both relevance and discoverability of the music content via themes or collections presented as playlists.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_playlists.jpg" />
 </figure>
 
 ---
@@ -98,14 +98,14 @@ The design team in close collaboration with the content/marketing team, began wo
 The navigation in the first version was designed with quick access in mind. However, it fails to scale as number of categories increased. The team brainstormed and iterated on many approaches to showcase the breadth of content in terms of navigation. We finally tested and settled on the most obvious seeming version, which had verbs/actions in the navigation rather than categories.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_nav.jpg" />
 </figure>
 
 ---
 This user-friendly design enabled the business to get users into newer types engagements easily, increasing the spread of engagement. This also enabled us to introduce a new 'ride mode' to our customers, opening up engagement channels via local content and commerce. We wanted the design solution to seem as natural as possible. Hence, we had to begin designing and prototyping on the medium itself, which was maps.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_map_base.gif" />
 </figure>
 
 ---
@@ -114,7 +114,7 @@ This user-friendly design enabled the business to get users into newer types eng
 Throughout multiple surveys across user segments, we learnt that the brand penetration and recall was poor among Ola customers. We planned to introduce brand characteristics via visual cues and personalised UI. We prototyped and built an internal tool that generated on-brand playlist artworks that have the same language. 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_brand.jpg" />
 </figure>
 
 ---
@@ -122,7 +122,7 @@ Throughout multiple surveys across user segments, we learnt that the brand penet
 The team also identified and prototyped many touch points in the journey where we could introduce personalisation in a natural way. We re-designed the idle screens to belong to a certain city or a festival theme, making it a dynamic feature that invites customers to engage. We also designed and prototyped an audio feature that mimics a radio jockey, and contained personalised voice greetings during the start and end of trips. These messages worked on Google Andriod TTS and were designed to be dynamic, pulling in data from weather conditions and destination of the current ride.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_2feet.jpg" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_welcome.gif" />
 </figure>
 
 ---
@@ -132,14 +132,14 @@ The team also identified and prototyped many touch points in the journey where w
 With the new redesign, the team was also tasked with designing experiences which introduced local commerce and guided tours. Imagining features on top of the map, we began prototyping sponsored pit-stops or exclusive retail walk-in deals for interested commuters. 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_ride_ads.gif" />
 </figure>
 
 ---
-We observed many tourists used Ola cabs to take city tours in mumbai and bangalore, we prototyped an audio-visual guided tour for consumers taking city tours in an Ola. 
+We observed many tourists used Ola cabs to take city tours in Mumbai and Bangalore, we prototyped an audio-visual guided tour for consumers taking city tours in an Ola. 
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_mmt.gif" />
 </figure>
 
 ---
@@ -149,7 +149,7 @@ We observed many tourists used Ola cabs to take city tours in mumbai and bangalo
 During our in-person interviews, we observed a lot usability issues that came with the device being at a distance of 2 feet. We wanted to introduce a lean-back experience of OlaPlay where users could use the Ola app on their phones as remote controls. We prototyped a solution to this using websockets in framer. This prototype and demonstration helped us immensely in getting the confidence of product and tech teams towards building this new mode of interaction into the platform.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_remote.gif" />
 </figure>
 
 ---
@@ -157,7 +157,7 @@ During our in-person interviews, we observed a lot usability issues that came wi
 Using the same underlying technologies we were also able to design a simple in-car gaming setup. Users could play games on the tablet screen while the controls were available on their smartphone apps. With further refinements to the prototypes, we were able to achieve near zero latency on this mode of interaction between the phones and OlaPlay device.
 
 <figure>
-<img class="lazy" data-original="{{edchao.github.io}}/assets/olaplay_music_player.gif" />
+<img class="lazy" data-original="{{edchao.github.io}}/assets/img_olaplay_games.gif" />
 </figure>
 
 ---

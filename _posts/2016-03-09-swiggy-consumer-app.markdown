@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "Redesigning Swiggy Consumer Apps"
-date:   2018-03-09 13:57:09
+date:   2015-03-09 13:57:09
 headline: "Redesigning Swiggy Consumer Apps"
 co: "Swiggy"
 tags:
@@ -43,7 +43,7 @@ Many users told us, they were very anxious about the "current status" of their f
 
 We eliminated this manual effort by implementing 'live tracking' via google maps and surfacing the map screen to the top most level. Every time a user had an active order, live tracking became the default screen and was always opened on app launch.
 
-Along with the tracking, we also had to standardise the communication around logistical milestones for a Swiggy order. We found that users felt more in-control of their orders when Swiggy's logistical efforts were communicated to them in real-time and clearly. We idenitifed 4 important milestones that corresponded to most common worries a Swiggy user had during an active order.
+Along with the tracking, we also had to standardise the communication around logistical milestones for a Swiggy order. We found that users felt more in-control of their orders when Swiggy's logistical efforts were communicated to them in real-time and clearly. We identified 4 important milestones that corresponded to most common worries a Swiggy user had during an active order.
 
 1. Order confirmed by the restaurant
 2. Delivery person assigned/arrived at the restaurant
