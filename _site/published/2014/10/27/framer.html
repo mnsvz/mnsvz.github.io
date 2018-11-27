@@ -31,109 +31,68 @@
   </header>
   <article class="container">
    <figure>
-<img class="lazy" data-original="/assets/gif_framer.gif" />
+<img class="lazy" data-original="/assets/img_framer_cover.JPG" />
 </figure>
 
 <!--more-->
+<hr />
 
-<p><a href="http://framerjs.com"><strong>FramerJS</strong></a> is a prototyping tool developed by Koen bok and the team at Podium.  A few months ago (Today being September 2014) I picked it up after tinkering around with a previously uncontested Quartz Composer.  It was a huge breath of fresh air.  The following is a selection of experiments that hopefully can serve as a resource of projects to help others in their Framer explorations.</p>
+<p><a href="http://framerjs.com"><strong>FramerJS</strong></a> is a tool to design interactive high-fidelity prototypes for iOS, Android, desktop, or the web. A few months ago at OlaPlay, we had to figure out a way to make prototypes that could send data to each other and framer seemed like a good fit since it is web-based and can make use of websockets. I wrote about it here - <a href="https://blog.framer.com/making-framer-prototypes-talk-to-each-other-web-sockets-framer-85eedd2243aa"><strong>Making Framer Prototypes that talk to each other</strong></a></p>
+
+<hr />
+<figure>
+<img class="lazy" data-original="/assets/img_framer_tv.gif" />
+</figure>
+
+<p>Once we were comfortable with the websocket and communications setup, we could imagine features and use-cases that could be served within the backseat of the cab.</p>
 
 <hr />
 
-<h2 id="card-swiping">Card swiping</h2>
+<h2 id="automating-playlist-artworks">Automating Playlist Artworks</h2>
 
 <figure>
-<img class="lazy" data-original="/assets/gif_cardfeed.gif" />
+<img class="lazy" data-original="/assets/img_framer_artwork.gif" />
 </figure>
 
-<p>The idea behind card swiping is to change contexts for a card-based UI with a swipe.  This is a pretty barebones UI concept but it shows an app that helps you organize your friends and connections based on city.  Swiping up and down changes your city, and therefore changes your friends listed.</p>
-
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/edchao_cardfeed.framer.zip">Download Source</a></p>
+<p>This is a framer prototype that we later turned into an internal web-tool for our content team at OlaPlay. It captures a palette of the most dominant colors from images. I worked closely with our marketing designer to come up with a relatively easy logic that could generate album-artworks on the fly. This helped us take this manual load off the designer’s schedule and let them work on more important stuff.</p>
 
 <hr />
 
-<h2 id="animation-chains-with-states">Animation Chains with States</h2>
+<h2 id="prototyping-for-the-medium">Prototyping for the medium</h2>
 
 <figure>
-<img class="lazy" data-original="/assets/gif_chathead.gif" />
+<img class="lazy" data-original="/assets/img_framer_mapbox.gif" />
 </figure>
 
-<p>On the framerJS website there is an example on chaining animations using the “end” event of a previous animation.  I wondered if you could instead use states and delays to create more complex animations while maintaining a bit more cleanliness in the code.  I deleted the project awhile ago, so here instead is a code snippet to show how it works.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>layer.states.add
-  a:
-    width: 10
-    height: 10
-  b:
-    width: 20
-    height: 20
-layer.states.animationOptions = curve:"spring(800,80,0)"
-
-layer.on Events.Click, -&gt;
-  layer.states.switch "a"
-  Utils.delay 0.5s, -&gt;
-    layer.states.switch "b"
-</code></pre></div></div>
+<p>At OlaPlay, I was trying to make prototyping quick and easy for other designers on the team. We wanted to think in terms of locations and maps. We made use of the <a href="https://www.mapbox.com/mapbox-gl-js/api/">Mapbox GL JS API</a> and templatized most functions like drawing pins on the map and use the google directions API and draw a navigable route between two points and have a cab/icon follow the route. Designers could then import these into their own framer files and start designing on top of this, prototyping booking flows and micro-animations on the map.</p>
 
 <hr />
 
-<h2 id="tap-hold-with-hammer-js">Tap hold with Hammer JS</h2>
+<h2 id="using-the-device-accelerometer-for-interactions">Using the device accelerometer for interactions</h2>
 
 <figure>
-<img class="lazy" data-original="/assets/gif_beacon.gif" />
+<img class="lazy" data-original="/assets/img_framer_utilsmenu.gif" />
 </figure>
 
-<p>Hammer JS is a library that allows you to utilize numerous other tap events, the most notable for me being tap and hold.  Koen Bok put together a code chunk that lets it work together with Framer.  This is a prototype I put together for my project Beacon that demonstrates what it can do.</p>
+<p>Making use of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation"> MDN web APIs </a> I was quickly able to make a bottom menu interaction. Using the device rotation, we can open and close the menu by setting a threshold.</p>
 
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/beacon_proto.zip">Download Source</a></p>
+<p><a href="https://framer.cloud/IScoC/">Open this on your phone</a></p>
 
 <hr />
 
-<h2 id="drill-down-tables">Drill Down Tables</h2>
+<h2 id="hotel-booking---virtual-reality-tour">Hotel Booking - Virtual Reality Tour</h2>
 
 <figure>
-<img class="lazy" data-original="/assets/gif_multiview.gif" />
+<img class="lazy" data-original="/assets/img_framer_VR.gif" />
 </figure>
 
-<p>A common request for people building prototypes is to create table views that can push/drill down to other table views.  This prototype creates the table views based on an array of objects, similar to a simple model.</p>
+<p>Tried out prototyping a VR Scene in Framer. Imagined users taking a VR tour of the room before deciding to book it.</p>
 
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/edchao_multiview.framer.zip">Download Source</a></p>
+<p>Learnt about creating a scene based on cubemaps and much more. Big thanks to @Jonas Treub for providing the VRComponent.</p>
+
+<p><a href="http://share.framerjs.com/e23g2cdl1jxc/">Open this on your phone</a></p>
 
 <hr />
-
-<h2 id="page-control">Page Control</h2>
-
-<figure>
-<img class="lazy" data-original="/assets/gif_cardtable.gif" />
-</figure>
-
-<p>Another common iOS design paradigm is the page control / cover flow dots.  This is a prototype that tracks what page you are currently viewing.  With that information you can do all sorts of cool stuff, but I’ll leave it to you.</p>
-
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/edchao_pagecontrol.framer.zip">Download Source</a></p>
-
-<hr />
-
-<h2 id="card-stack">Card Stack</h2>
-
-<figure>
-<img class="lazy" data-original="/assets/gif_cardstack.gif" />
-</figure>
-
-<p>Here is a demonstration of how to create a 3d stack of cards that you can swipe to navigate.  The concept is essentially just positioning an array of cards along a z-axis based on its index.  Swiping records the index you are currently on and changes the position of all the array items accordingly.</p>
-
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/edchao_cardstack.framer.zip">Download Source</a></p>
-
-<hr />
-
-<h2 id="radial-progress">Radial Progress</h2>
-
-<figure>
-<img class="lazy" data-original="/assets/gif_radial.gif" />
-</figure>
-
-<p>It took me awhile to figure this one out, but here’s a proto demonstrating how to create a radial progress bar.  The key is that you’re actually faking it by masking two rectangles being rotated around in succession within a larger circular mask.</p>
-
-<p><a href="https://dl.dropboxusercontent.com/u/1916165/edchao_radial_progress.framer.zip">Download Source</a></p>
 
   </article>
 
