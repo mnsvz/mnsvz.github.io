@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/edchao/edchao.github.io.git"
+    "url": "https://github.com/mnsvz/mnsvz.github.io"
   },
   "keywords": [
     "design",
@@ -20,12 +20,12 @@
     "interaction",
     "product"
   ],
-  "author": "Ed Chao",
+  "author": "Manas Vaze",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edchao/edchao.github.io/issues"
+    "url": "https://github.com/mnsvz/mnsvz.github.io"
   },
-  "homepage": "https://github.com/edchao/edchao.github.io",
+  "homepage": "https://mnsvz.github.io",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-connect": "^0.8.0",
